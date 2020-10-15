@@ -1,0 +1,258 @@
+.back-head{
+	height: 70vh;
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-position: center;
+	opacity: 0.8;
+	margin-top: -17px;
+	
+}
+body{
+	margin: 0px;
+}
+.navigation-menu{
+	color: white;
+	list-style-type: none;
+	margin-left: 30%;
+	
+}
+.navigation-menu li{
+	display: inline;
+	margin-left: 25px;
+	font-size: 20px;
+	font-weight: strong;
+}
+.navigation-menu a{
+	text-decoration: none;
+	color: white;
+}
+.social-menu{
+	margin-left: 38%;
+	margin-top: 70px;
+}
+#name{
+	font-size: 50px;
+	margin: 0% 37%;
+	margin-top: 150px;
+
+}
+#icon:hover{
+ padding: 10px;
+}
+#about {
+    height: auto;
+    width: 100%;
+    position: relative;
+    margin-bottom: 30px;
+}
+.mb-orange{
+	background-color: orange;
+}
+.mb-magneta{
+	background-color: rgb(255,51,51);
+}
+.mb-green{
+	background-color: green;
+}
+/*SKILLS DISPLAY*/
+#skills-display{
+	width: 70%;
+	padding: 10px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	/*border:2px solid black;
+	height: 100px;*/
+}
+/*ABOUT SECTION*/
+#my-image {
+    height: 12rem;
+    width: 12rem;
+    margin: auto;
+    margin-top: -17vh;
+}
+
+#my-image img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    border: 3px solid white;
+    box-shadow: 1px 1px 10px 2px lightgrey;
+}
+#about-para{
+	margin: auto;
+	width: 60%;
+	font-size: 1.3rem;
+	text-align: justify;
+	color: grey;
+	line-height: 25px;
+	word-spacing: 5px;
+}
+/* SECTION STYLING*/
+section:nth-child(2n) {
+    background-color: #9e9b9b29;
+}
+
+section:nth-child(2n + 1) {
+    background-color: white;
+}
+section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+#section-heading{
+	
+	color: blue;
+	font-size: 20px;
+}
+/*SKILLS VALUE STYLING*/
+.skills-progress{
+	width: 10rem;
+	height: 2.5rem;
+	background-color: grey;
+	border-radius: 1.2rem;
+	margin: 25px;
+	/*border:2px solid black;*/
+	
+}
+.skills-progress>div{
+	border-radius: 22px 0px 0px 22px;
+}
+.eighty-five-percent{
+	width: 85%;
+	height: inherit;
+}
+.mb-blue{
+	background-color: blue;
+}
+.skill-name span{
+	color: white;
+	font-size: 1.5rem;
+	margin:50% 35%;
+
+}
+/*EDUCATION-SECTION*/
+.timeline{
+	position: relative;
+	width: 75%;
+	/*border:2px solid black;*/
+}
+.timeline-box{
+	position: relative;
+	width: 40%;
+	height: auto;
+	/*border: 2px solid black;*/
+	margin: 10px;
+
+}
+.timeline-box:nth-child(2n)
+{
+	margin-left: 53%;
+}
+/*WORK ON TIMELINE DIVIDER*/
+.timeline-divider{
+	position: absolute;
+	width: 0;
+	height: 75%;
+	border:3px dashed #0096fa6b;
+	top: 10%;
+	left: 50%;
+}
+.timeline-traveller{
+	position: sticky;
+	transform: rotate(90deg);
+	color: blue;
+	top: 25%;
+}
+/*PORTFOLIO SECTION*/
+.portfolio-display{
+	width: 100%;
+	
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	/*border:2px solid black;*/
+	height: auto;
+
+}
+.portfolio-container{
+	margin: 20px;
+	/*border: 2px solid black;*/
+	height: 60%;
+	width: 20%;
+}
+.portfolio-container img{
+	height: 100%;
+	width: 100%;
+}
+/*CONTACT SECTION*/
+#contact{
+	background-color: #0abcf9;
+	background-image: linear-gradient(50deg, #2857a4 0%, #403066 74%);
+	color: white;
+}
+#contact h1{
+	color: white;
+}
+.contact-display{
+	width: 75%;
+	height: auto;
+	display: flex;
+	flex-wrap: wrap;
+	/*border: 2px solid white;*/
+}
+
+.contact-details{
+	color: white;
+	height: auto;
+	width: 45%;
+	/*border: 2px solid white;*/
+	margin-left: 50px;
+	margin-top: 10px;	
+}
+
+#contact-form-container {
+    width: 50%;
+}
+#contact-form input,
+textarea {
+    max-width: 90%;
+    margin: 15px;
+    padding: 4px 10px;
+    border: 0px solid transparent;
+    border-bottom: 2px solid white;
+    color: #d9dcdd;
+    background: transparent;
+    width: 90%;
+    line-height: 1.6;
+    font-size: 1.05rem;
+}
+
+#contact-form button[type="submit"] {
+    background: transparent;
+    font-size: 0.95rem;
+    border: 2px solid white;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 2px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.046875em;
+    line-height: 1;
+    padding: 0.8em 0.8em 0.78em;
+    text-transform: uppercase;
+}
+
+#contact-form button:hover {
+    background: white;
+    color: #13386fe0;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
